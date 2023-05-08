@@ -28,5 +28,15 @@ class ReactNativeContainerViewController: UIViewController {
         )
         rootView.frame = self.view.bounds
         self.view.addSubview(rootView)
+        
+//        self.view = rootView
+        rootView.delegate = self
+    }
+}
+
+// 实现 RCTRootViewDelegate 协议来处理 React Native 页面的回调
+extension ReactNativeContainerViewController: RCTRootViewDelegate {
+    func rootViewDidChangeIntrinsicSize(_ rootView: RCTRootView!) {
+        // 处理 React Native 页面加载完成的事件
     }
 }
