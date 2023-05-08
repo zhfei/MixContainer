@@ -16,6 +16,10 @@
 		91C420E32A09520C0004475B /* MixContainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C420E22A09520C0004475B /* MixContainerTests.swift */; };
 		91C420ED2A09520C0004475B /* MixContainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C420EC2A09520C0004475B /* MixContainerUITests.swift */; };
 		91C420EF2A09520C0004475B /* MixContainerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C420EE2A09520C0004475B /* MixContainerUITestsLaunchTests.swift */; };
+		91C420FD2A0953390004475B /* H5ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C420FC2A0953390004475B /* H5ContainerViewController.swift */; };
+		91C421002A0953900004475B /* ReactNativeContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C420FF2A0953900004475B /* ReactNativeContainerViewController.swift */; };
+		91C421032A0953D20004475B /* UnityContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C421022A0953D20004475B /* UnityContainerViewController.swift */; };
+		91C421062A09542A0004475B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C421052A09542A0004475B /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		91C420E82A09520C0004475B /* MixContainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixContainerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C420EC2A09520C0004475B /* MixContainerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixContainerUITests.swift; sourceTree = "<group>"; };
 		91C420EE2A09520C0004475B /* MixContainerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixContainerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91C420FC2A0953390004475B /* H5ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H5ContainerViewController.swift; sourceTree = "<group>"; };
+		91C420FF2A0953900004475B /* ReactNativeContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeContainerViewController.swift; sourceTree = "<group>"; };
+		91C421022A0953D20004475B /* UnityContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityContainerViewController.swift; sourceTree = "<group>"; };
+		91C421052A09542A0004475B /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 		91C420CA2A09520A0004475B /* MixContainer */ = {
 			isa = PBXGroup;
 			children = (
+				91C421042A0954150004475B /* Router */,
+				91C421012A0953BB0004475B /* Unity */,
+				91C420FE2A0953680004475B /* ReactNative */,
+				91C420FB2A09531B0004475B /* H5 */,
 				91C420CB2A09520A0004475B /* AppDelegate.swift */,
 				91C420CD2A09520A0004475B /* SceneDelegate.swift */,
 				91C420CF2A09520A0004475B /* ViewController.swift */,
@@ -125,6 +137,38 @@
 				91C420EE2A09520C0004475B /* MixContainerUITestsLaunchTests.swift */,
 			);
 			path = MixContainerUITests;
+			sourceTree = "<group>";
+		};
+		91C420FB2A09531B0004475B /* H5 */ = {
+			isa = PBXGroup;
+			children = (
+				91C420FC2A0953390004475B /* H5ContainerViewController.swift */,
+			);
+			path = H5;
+			sourceTree = "<group>";
+		};
+		91C420FE2A0953680004475B /* ReactNative */ = {
+			isa = PBXGroup;
+			children = (
+				91C420FF2A0953900004475B /* ReactNativeContainerViewController.swift */,
+			);
+			path = ReactNative;
+			sourceTree = "<group>";
+		};
+		91C421012A0953BB0004475B /* Unity */ = {
+			isa = PBXGroup;
+			children = (
+				91C421022A0953D20004475B /* UnityContainerViewController.swift */,
+			);
+			path = Unity;
+			sourceTree = "<group>";
+		};
+		91C421042A0954150004475B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				91C421052A09542A0004475B /* Router.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +303,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				91C420D02A09520A0004475B /* ViewController.swift in Sources */,
+				91C420FD2A0953390004475B /* H5ContainerViewController.swift in Sources */,
+				91C421032A0953D20004475B /* UnityContainerViewController.swift in Sources */,
+				91C421062A09542A0004475B /* Router.swift in Sources */,
 				91C420CC2A09520A0004475B /* AppDelegate.swift in Sources */,
+				91C421002A0953900004475B /* ReactNativeContainerViewController.swift in Sources */,
 				91C420CE2A09520A0004475B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
