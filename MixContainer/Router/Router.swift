@@ -26,11 +26,11 @@ class Router {
             source.navigationController?.pushViewController(viewController, animated: animated)
             completion?()
         case .h5(let urlString):
-            let h5ViewController = H5ViewController(urlString: urlString)
+            let h5ViewController = H5ContainerViewController()
             source.navigationController?.pushViewController(h5ViewController, animated: animated)
             completion?()
         case .reactNative(let screenName):
-            let reactNativeViewController = ReactNativeViewController(screenName: screenName)
+            let reactNativeViewController = ReactNativeContainerViewController()
             source.navigationController?.pushViewController(reactNativeViewController, animated: animated)
             completion?()
         case .unityContainer:
@@ -45,10 +45,10 @@ class Router {
         case .native(let viewController):
             source.present(viewController, animated: animated, completion: completion)
         case .h5(let urlString):
-            let h5ViewController = H5ViewController(urlString: urlString)
+            let h5ViewController = H5ContainerViewController()
             source.present(h5ViewController, animated: animated, completion: completion)
         case .reactNative(let screenName):
-            let reactNativeViewController = ReactNativeViewController(screenName: screenName)
+            let reactNativeViewController = ReactNativeContainerViewController()
             source.present(reactNativeViewController, animated: animated, completion: completion)
         case .unityContainer:
             let unityContainerViewController = UnityContainerViewController()
