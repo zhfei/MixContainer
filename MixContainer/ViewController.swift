@@ -15,6 +15,9 @@ class ViewController: UIViewController {
 
     }
     
+    @IBAction func goH5(_ sender: Any) {
+        Router.shared.present(.h5(urlString: ""), from: self)
+    }
     
     
     @objc func btnAction(_ sender: UIButton) {
