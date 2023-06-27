@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		910B17E52A4B0EA600E42C75 /* H5WKWebViewContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B17E42A4B0EA600E42C75 /* H5WKWebViewContainerController.swift */; };
+		910B17E92A4B0F6200E42C75 /* H5UIWebViewOCContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910B17E82A4B0F6200E42C75 /* H5UIWebViewOCContainerController.m */; };
+		910B17EC2A4B202500E42C75 /* AppJSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 910B17EB2A4B202500E42C75 /* AppJSModel.m */; };
 		91C420CC2A09520A0004475B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C420CB2A09520A0004475B /* AppDelegate.swift */; };
 		91C420CE2A09520A0004475B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C420CD2A09520A0004475B /* SceneDelegate.swift */; };
 		91C420D02A09520A0004475B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C420CF2A09520A0004475B /* ViewController.swift */; };
@@ -40,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		910B17E42A4B0EA600E42C75 /* H5WKWebViewContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H5WKWebViewContainerController.swift; sourceTree = "<group>"; };
+		910B17E62A4B0F6100E42C75 /* MixContainer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MixContainer-Bridging-Header.h"; sourceTree = "<group>"; };
+		910B17E72A4B0F6200E42C75 /* H5UIWebViewOCContainerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = H5UIWebViewOCContainerController.h; sourceTree = "<group>"; };
+		910B17E82A4B0F6200E42C75 /* H5UIWebViewOCContainerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H5UIWebViewOCContainerController.m; sourceTree = "<group>"; };
+		910B17EA2A4B202500E42C75 /* AppJSModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppJSModel.h; sourceTree = "<group>"; };
+		910B17EB2A4B202500E42C75 /* AppJSModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppJSModel.m; sourceTree = "<group>"; };
 		91C420C82A09520A0004475B /* MixContainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixContainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C420CB2A09520A0004475B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91C420CD2A09520A0004475B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +152,12 @@
 			isa = PBXGroup;
 			children = (
 				91C420FC2A0953390004475B /* H5ContainerViewController.swift */,
+				910B17E42A4B0EA600E42C75 /* H5WKWebViewContainerController.swift */,
+				910B17E72A4B0F6200E42C75 /* H5UIWebViewOCContainerController.h */,
+				910B17E82A4B0F6200E42C75 /* H5UIWebViewOCContainerController.m */,
+				910B17EA2A4B202500E42C75 /* AppJSModel.h */,
+				910B17EB2A4B202500E42C75 /* AppJSModel.m */,
+				910B17E62A4B0F6100E42C75 /* MixContainer-Bridging-Header.h */,
 			);
 			path = H5;
 			sourceTree = "<group>";
@@ -239,6 +254,7 @@
 				TargetAttributes = {
 					91C420C72A09520A0004475B = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 					91C420DD2A09520C0004475B = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -307,7 +323,10 @@
 				91C421032A0953D20004475B /* UnityContainerViewController.swift in Sources */,
 				91C421062A09542A0004475B /* Router.swift in Sources */,
 				91C420CC2A09520A0004475B /* AppDelegate.swift in Sources */,
+				910B17E92A4B0F6200E42C75 /* H5UIWebViewOCContainerController.m in Sources */,
 				91C421002A0953900004475B /* ReactNativeContainerViewController.swift in Sources */,
+				910B17E52A4B0EA600E42C75 /* H5WKWebViewContainerController.swift in Sources */,
+				910B17EC2A4B202500E42C75 /* AppJSModel.m in Sources */,
 				91C420CE2A09520A0004475B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +504,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -502,6 +522,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = zhf.MixContainer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MixContainer/H5/MixContainer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -512,6 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -529,6 +552,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = zhf.MixContainer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MixContainer/H5/MixContainer-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
