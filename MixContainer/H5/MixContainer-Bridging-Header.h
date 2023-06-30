@@ -4,3 +4,5 @@
 
 #import "H5UIWebViewOCContainerController.h"
 #import "AppJSModel.h"
+
+#import "H5WVJBContainerViewController.h"

@@ -10,6 +10,11 @@
 		910B17E52A4B0EA600E42C75 /* H5WKWebViewContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B17E42A4B0EA600E42C75 /* H5WKWebViewContainerController.swift */; };
 		910B17E92A4B0F6200E42C75 /* H5UIWebViewOCContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910B17E82A4B0F6200E42C75 /* H5UIWebViewOCContainerController.m */; };
 		910B17EC2A4B202500E42C75 /* AppJSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 910B17EB2A4B202500E42C75 /* AppJSModel.m */; };
+		910B17EF2A4F123A00E42C75 /* H5WVJBContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910B17EE2A4F123A00E42C75 /* H5WVJBContainerViewController.m */; };
+		910B17FE2A4F14A500E42C75 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 910B17F62A4F14A500E42C75 /* WebViewJavascriptBridgeBase.m */; };
+		910B17FF2A4F14A500E42C75 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 910B17F72A4F14A500E42C75 /* WKWebViewJavascriptBridge.m */; };
+		910B18002A4F14A500E42C75 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 910B17F82A4F14A500E42C75 /* WebViewJavascriptBridge.m */; };
+		910B18012A4F14A500E42C75 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 910B17FB2A4F14A500E42C75 /* WebViewJavascriptBridge_JS.m */; };
 		91C420CC2A09520A0004475B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C420CB2A09520A0004475B /* AppDelegate.swift */; };
 		91C420CE2A09520A0004475B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C420CD2A09520A0004475B /* SceneDelegate.swift */; };
 		91C420D02A09520A0004475B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C420CF2A09520A0004475B /* ViewController.swift */; };
@@ -49,6 +54,16 @@
 		910B17E82A4B0F6200E42C75 /* H5UIWebViewOCContainerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H5UIWebViewOCContainerController.m; sourceTree = "<group>"; };
 		910B17EA2A4B202500E42C75 /* AppJSModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppJSModel.h; sourceTree = "<group>"; };
 		910B17EB2A4B202500E42C75 /* AppJSModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppJSModel.m; sourceTree = "<group>"; };
+		910B17ED2A4F123A00E42C75 /* H5WVJBContainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = H5WVJBContainerViewController.h; sourceTree = "<group>"; };
+		910B17EE2A4F123A00E42C75 /* H5WVJBContainerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H5WVJBContainerViewController.m; sourceTree = "<group>"; };
+		910B17F62A4F14A500E42C75 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		910B17F72A4F14A500E42C75 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		910B17F82A4F14A500E42C75 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		910B17F92A4F14A500E42C75 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		910B17FA2A4F14A500E42C75 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		910B17FB2A4F14A500E42C75 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		910B17FC2A4F14A500E42C75 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		910B17FD2A4F14A500E42C75 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
 		91C420C82A09520A0004475B /* MixContainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixContainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C420CB2A09520A0004475B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91C420CD2A09520A0004475B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,9 +108,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		910B17F22A4F12D100E42C75 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				910B17F52A4F14A500E42C75 /* WebViewJavascriptBridge */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		910B17F52A4F14A500E42C75 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				910B17F62A4F14A500E42C75 /* WebViewJavascriptBridgeBase.m */,
+				910B17F72A4F14A500E42C75 /* WKWebViewJavascriptBridge.m */,
+				910B17F82A4F14A500E42C75 /* WebViewJavascriptBridge.m */,
+				910B17F92A4F14A500E42C75 /* WebViewJavascriptBridge_JS.h */,
+				910B17FA2A4F14A500E42C75 /* WebViewJavascriptBridgeBase.h */,
+				910B17FB2A4F14A500E42C75 /* WebViewJavascriptBridge_JS.m */,
+				910B17FC2A4F14A500E42C75 /* WebViewJavascriptBridge.h */,
+				910B17FD2A4F14A500E42C75 /* WKWebViewJavascriptBridge.h */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
 		91C420BF2A09520A0004475B = {
 			isa = PBXGroup;
 			children = (
+				910B17F22A4F12D100E42C75 /* Tools */,
 				91C420CA2A09520A0004475B /* MixContainer */,
 				91C420E12A09520C0004475B /* MixContainerTests */,
 				91C420EB2A09520C0004475B /* MixContainerUITests */,
@@ -158,6 +197,8 @@
 				910B17EA2A4B202500E42C75 /* AppJSModel.h */,
 				910B17EB2A4B202500E42C75 /* AppJSModel.m */,
 				910B17E62A4B0F6100E42C75 /* MixContainer-Bridging-Header.h */,
+				910B17ED2A4F123A00E42C75 /* H5WVJBContainerViewController.h */,
+				910B17EE2A4F123A00E42C75 /* H5WVJBContainerViewController.m */,
 			);
 			path = H5;
 			sourceTree = "<group>";
@@ -322,12 +363,17 @@
 				91C420FD2A0953390004475B /* H5ContainerViewController.swift in Sources */,
 				91C421032A0953D20004475B /* UnityContainerViewController.swift in Sources */,
 				91C421062A09542A0004475B /* Router.swift in Sources */,
+				910B17FF2A4F14A500E42C75 /* WKWebViewJavascriptBridge.m in Sources */,
+				910B18002A4F14A500E42C75 /* WebViewJavascriptBridge.m in Sources */,
+				910B17FE2A4F14A500E42C75 /* WebViewJavascriptBridgeBase.m in Sources */,
+				910B17EF2A4F123A00E42C75 /* H5WVJBContainerViewController.m in Sources */,
 				91C420CC2A09520A0004475B /* AppDelegate.swift in Sources */,
 				910B17E92A4B0F6200E42C75 /* H5UIWebViewOCContainerController.m in Sources */,
 				91C421002A0953900004475B /* ReactNativeContainerViewController.swift in Sources */,
 				910B17E52A4B0EA600E42C75 /* H5WKWebViewContainerController.swift in Sources */,
 				910B17EC2A4B202500E42C75 /* AppJSModel.m in Sources */,
 				91C420CE2A09520A0004475B /* SceneDelegate.swift in Sources */,
+				910B18012A4F14A500E42C75 /* WebViewJavascriptBridge_JS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
